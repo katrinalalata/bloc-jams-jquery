@@ -1,5 +1,5 @@
 class Helper {
-  playPauseAndUpdate (song = player.currentlyPlaying);
+  playPauseAndUpdate (song)
   player.playPause (song);
   $('#time-control .current-time').text( currentTime );
   $('#time-control input').val(percent);
